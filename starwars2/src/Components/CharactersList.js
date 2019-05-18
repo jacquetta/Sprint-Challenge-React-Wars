@@ -1,14 +1,14 @@
 import React from 'react';
-
+import './StarWars.css'
 
 function CharacterList(props){
     return (
        <div className='card'>
-            <p>{props.characters.name}</p>
-            <p><strong>height:</strong> {props.characters.height}</p>
-            <p><strong>birth-year:</strong> {props.characters.birth_year}</p>
-            <p><strong>species:</strong> {props.characters.species}</p>
-            <p><strong>homeworld:</strong> {props.characters.homeworld}</p>
+            <h2 className="title">{props.characters.name}</h2>
+            <p className="text"><strong>height:</strong> {props.characters.height}</p>
+            <p className="text"><strong>birth-year:</strong> {props.characters.birth_year}</p>
+            <p className="text"><strong>species:</strong> {props.characters.species}</p>
+            <p className="text"><strong>homeworld:</strong> {props.characters.homeworld}</p>
        </div>
     )
 }
