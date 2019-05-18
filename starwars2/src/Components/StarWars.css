@@ -8,8 +8,13 @@
 .card {
   margin-bottom: 10px;
   width: 550px;
+  color: white;
   border: 4px solid black;
   border-radius: 15px;
   box-shadow: 5px 5px rgb(27, 27, 110);
   background-image: linear-gradient(to right, rgba(255,0,0,0), brown);
+}
+
+h2{
+    font-family: 'Artifika', serif;
 }
